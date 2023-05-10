@@ -1,0 +1,6 @@
+@use 'base';
+
+.userefContainer {
+  @extend %partContainer;
+  color:base.$secondary-blue;
+}

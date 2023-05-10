@@ -1,0 +1,21 @@
+@use 'base';
+
+
+
+.handlerContainer {
+@extend %partContainer;
+color:green;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.handlerButton {
+  @include base.baseButton(200px, 20px, red,5px);
+  margin:5px auto;
+
+}
+
+ 
