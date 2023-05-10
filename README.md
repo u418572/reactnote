@@ -15,8 +15,10 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
+
 ### `npm run build`
 
 ## Learn list
-** you can see every component that what I learn in components . **
-** for example. component/eventHandler. it is about all 'event handler' I learned. **
+
+**you can see every component that what I learn in components .**
+**for example. component/eventHandler. it is about all 'event handler' I learned.**

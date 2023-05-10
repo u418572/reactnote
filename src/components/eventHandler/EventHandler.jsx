@@ -1,5 +1,6 @@
 import styles from 'components/eventHandler/handStyle.module.scss'
 import AsProps from 'components/eventHandler/AsProps'
+import Propagation from 'components/eventHandler/Propagation'
  
 
 function AlertButton ({message, children}) {
@@ -32,8 +33,16 @@ function EventHandler() {
         <div>
           <button onClick={() => { alert('this is arrow function') }} className={styles.handlerButton}> click</button>
         </div>
-        <AlertButton message='show with message props'>show with children props</AlertButton>
-        <AsProps />
+        <div>
+          <AlertButton message='show with message props'>show with children props</AlertButton>
+        </div>
+        <div>
+          <AsProps />
+        </div>
+        <div>
+          <Propagation />
+        </div>
+       
       </div>
        
 

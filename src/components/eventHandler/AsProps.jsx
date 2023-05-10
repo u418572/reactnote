@@ -14,16 +14,21 @@ function PlayButton({movieName}) {    //注意大括號
     alert(`playing ${movieName}`)
   }
    return (
-     <Button onClick={handlePlayClick}>play "{movieName}"</Button>
+     <Button onClick={handlePlayClick}>props play "{movieName}"</Button>
   )
  }
 
+function UploadButton () {
+  return (
+    <Button onClick={() => alert('Uploading')}>asprops Upload Image</Button>
+  )
+}
 
 function AsProps() {
   return (
     <>
       <PlayButton movieName='造后者'/>
-    <Button>WHAT???</Button>
+     <UploadButton />
     </>
   )
 }
