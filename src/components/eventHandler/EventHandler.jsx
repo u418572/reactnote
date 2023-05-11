@@ -40,9 +40,9 @@ function EventHandler() {
           <AsProps />
         </div>
         <div>
-          <Propagation />
+         
         </div>
-       
+        <Propagation />
       </div>
        
 

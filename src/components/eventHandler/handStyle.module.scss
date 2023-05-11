@@ -14,13 +14,16 @@ align-items:center;
 .handlerButton {
   @include base.baseButton(200px, 20px, red,5px);
   margin:5px auto;
+  background-color:base.$light-gray;
 
 }
 
-.toolbar {
-  @include base.baseButton(300px, 30px,blue, 5px);
+.toolBar {
+  @include base.baseButton(100%, 40px,blue, 5px);
     margin: 10px auto;
     color: orange;
+    display: flex;
+    background-color:aqua;
 }
 
  
