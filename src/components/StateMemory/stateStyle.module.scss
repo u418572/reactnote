@@ -8,3 +8,11 @@
   justify-content: flex-start;
   align-items: center;
 }
+// likeButton
+.likeButton {
+  width: 170px;
+  height: 30px;
+  @include base.border(black, 10px);
+  margin: 5px auto;
+  box-shadow: 2px 0 3px 1px base.$light-gray;
+}
