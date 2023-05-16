@@ -2,6 +2,7 @@ import styles from 'components/mainBox/style.module.scss'
 import EventHandler from 'components/eventHandler/EventHandler'
 import UseRefrance from 'components/useRef/UseRefrance'
 import MainState from 'components/StateMemory/MainState'
+import MainInputState from 'components/inputstate/MainInputState'
 
 function MainLayout(props) {
   return (
@@ -11,6 +12,7 @@ function MainLayout(props) {
         <EventHandler />
         <UseRefrance />
         <MainState />
+        <MainInputState />
       </div>
     </>
   )

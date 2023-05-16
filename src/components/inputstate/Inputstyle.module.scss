@@ -1,0 +1,32 @@
+@use 'base';
+
+.inputContainer {
+  @extend %partContainer;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+// likeButton
+.likeButton {
+  width: 170px;
+  height: 30px;
+  @include base.border(black, 10px);
+  margin: 5px auto;
+  box-shadow: 2px 0 3px 1px base.$light-gray;
+}
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+.ProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  button {
+    width: 80px;
+    height: 25px;
+    @include base.border(red, 5px);
+  }
+}
