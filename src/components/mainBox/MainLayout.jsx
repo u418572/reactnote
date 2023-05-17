@@ -3,6 +3,7 @@ import EventHandler from 'components/eventHandler/EventHandler'
 import UseRefrance from 'components/useRef/UseRefrance'
 import MainState from 'components/StateMemory/MainState'
 import MainInputState from 'components/inputstate/MainInputState'
+import MainStructure from 'components/StructureState/MainStructure'
 
 function MainLayout(props) {
   return (
@@ -13,6 +14,7 @@ function MainLayout(props) {
         <UseRefrance />
         <MainState />
         <MainInputState />
+        <MainStructure />
       </div>
     </>
   )
