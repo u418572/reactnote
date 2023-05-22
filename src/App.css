@@ -173,3 +173,15 @@ input:invalid {
   margin-top: 100px;
 
 }
+
+.counter {
+  width:100px;
+  height: 100px;
+  border:1px solid gray;
+ 
+}
+
+.hover {
+  background-color: yellow;
+}
+

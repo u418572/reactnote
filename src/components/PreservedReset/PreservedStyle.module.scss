@@ -1,0 +1,44 @@
+
+@use 'base';
+
+.preservedContainer {
+  @extend %partContainer;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+// *****************************************
+
+// .counter {
+//   width:45%;
+//   height: 100px;
+//   @include base.border(base.$light-gray,10px);
+//   &:hover {
+//       background-color: yellow;
+//     }
+// }
+
+.counter {
+  width: 45%;
+  height: 100px;
+  @include base.border(red, 10px);
+ }
+
+ .hover {
+   background-color: rgb(34, 204, 60);
+   color:blue;
+ }
+
+.pointButton {
+  @include base.baseButton (70px, 20px, green, 5px);
+  background: base.$light-gray;
+  color: white;
+  margin-top: 20px;
+}
+
+.countContainer {
+  display: flex;
+  gap: 30px;
+}

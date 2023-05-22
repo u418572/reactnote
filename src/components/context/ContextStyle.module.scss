@@ -1,0 +1,21 @@
+@use 'base';
+
+.contextContainer {
+  @extend %partContainer;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+// **************************************
+
+
+.theneContainer {
+  width: 100%;
+  height: 60px; 
+  color:black;
+  background-color: white;
+  @include base.border(blue, 10px);
+}

@@ -4,6 +4,10 @@ import UseRefrance from 'components/useRef/UseRefrance'
 import MainState from 'components/StateMemory/MainState'
 import MainInputState from 'components/inputstate/MainInputState'
 import MainStructure from 'components/StructureState/MainStructure'
+import MainSharing from 'components/sharingState/MainSharing'
+import MainPreserved from 'components/PreservedReset/MainPreserved'
+import MainContext from 'components/context/MainContext'
+import MainTheme from 'components/theme/MainTheme'
 
 function MainLayout(props) {
   return (
@@ -15,6 +19,11 @@ function MainLayout(props) {
         <MainState />
         <MainInputState />
         <MainStructure />
+        <MainSharing />
+        <MainPreserved />
+        <MainContext />
+        <MainTheme />
+        
       </div>
     </>
   )
